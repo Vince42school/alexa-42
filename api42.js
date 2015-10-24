@@ -6,10 +6,6 @@ const baseRequest = include("api-log")(include('config').credentials);
 
 const callApi = urlPath => baseRequest(path.join("/v2", urlPath));
 
-function getAllPagesRecur(apiPath, n, resolve, reject) {
-  
-}
-
 const getAllPages = (apiPath, opts) => new Promise((resolve, reject) => {
   let cumulatedData = [];
 
