@@ -14,15 +14,15 @@ const fs = require("fs");
 //   console.log(data.length);
 // });
 
-api42.getAll("campus/1/events", {
-  // active: true,
-}).then(data => {
-  console.log(data.length);
-});
+// api42.getAll("campus/1/events", {
+//   // active: true,
+// }).then(data => {
+//   console.log(data.length);
+// });
 
 
-
-
+// start the server
+include("server");
 
 
 
